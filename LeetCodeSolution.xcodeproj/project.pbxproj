@@ -87,13 +87,13 @@
 				D13AA5562625D18E00CAE125 /* LC35 搜索插入位置 二分查找.swift */,
 				D1AE2F462626BFC300635251 /* LC53 最大子序和 动态规划.swift */,
 				D14CCEC126612E5B00EE3BB0 /* LC58 最后单词长度 字符串.swift */,
+				D14CCEC426612F4C00EE3BB0 /* LC66 加一 .swift */,
+				D11B18ED2661D5D700AAA324 /* LC69 x平方根 二分查找.swift */,
 				D1436B8E2632F4F200563783 /* LC100 相同的树 二叉树 递归.swift */,
 				D141E5CB26350C42000777A4 /* LC101 对称二叉树 递归 队列.swift */,
 				D172CEBC265007C900232907 /* LC104. 二叉树的最大深度 递归.swift */,
 				D17D73A6263111C6008C84EE /* ListNode.swift */,
 				D1436B8B2632F49B00563783 /* TreeNode.swift */,
-				D14CCEC426612F4C00EE3BB0 /* LC66 加一 .swift */,
-				D11B18ED2661D5D700AAA324 /* LC69 x平方根 二分查找.swift */,
 			);
 			path = LeetCodeSolution;
 			sourceTree = "<group>";
