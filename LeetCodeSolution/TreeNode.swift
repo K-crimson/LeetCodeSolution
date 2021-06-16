@@ -215,3 +215,40 @@ func postOrderTraversal(root: TreeNode?) -> [Int] {
     }
     return res
 }
+
+
+// 深度优先搜索： 同前序遍历
+
+
+// 广度优先搜索：
+
+func BFS(root: TreeNode?) -> [Int] {
+    
+    guard let node = root else { return [] }
+    
+    return BFSHelper(treeNode: node)
+}
+
+func BFSHelper(treeNode: TreeNode?) -> [Int] {
+    var queue = [TreeNode]()
+    guard let node = treeNode else { return [] }
+    queue.append(node)
+    
+    var result = [Int]()
+    while !queue.isEmpty {
+        let outNode = queue.removeFirst()
+        result.append(outNode.val)
+        if outNode.left != nil {
+            queue.append(outNode.left!)
+        }
+        if outNode.right != nil {
+            queue.append(outNode.right!)
+        }
+    }
+    
+    return result
+    
+}
+
+
+

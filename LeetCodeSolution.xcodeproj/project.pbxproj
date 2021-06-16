@@ -15,10 +15,15 @@
 		D1436B8C2632F49B00563783 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1436B8B2632F49B00563783 /* TreeNode.swift */; };
 		D1436B8F2632F4F200563783 /* LC100 相同的树 二叉树 递归.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1436B8E2632F4F200563783 /* LC100 相同的树 二叉树 递归.swift */; };
 		D14709B32631B2FA00D247B1 /* LC21. 合并两个有序链表 链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14709B22631B2FA00D247B1 /* LC21. 合并两个有序链表 链表.swift */; };
+		D1490A722678E13000CF24ED /* LC111 二叉树的最小深度.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1490A712678E13000CF24ED /* LC111 二叉树的最小深度.swift */; };
+		D1490A76267900B400CF24ED /* LC102 二叉树的层序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1490A75267900B400CF24ED /* LC102 二叉树的层序遍历.swift */; };
 		D14CCEC226612E5B00EE3BB0 /* LC58 最后单词长度 字符串.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14CCEC126612E5B00EE3BB0 /* LC58 最后单词长度 字符串.swift */; };
 		D14CCEC526612F4C00EE3BB0 /* LC66 加一 .swift in Sources */ = {isa = PBXBuildFile; fileRef = D14CCEC426612F4C00EE3BB0 /* LC66 加一 .swift */; };
+		D170B51A266B023500552D14 /* LC110 平衡二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = D170B519266B023500552D14 /* LC110 平衡二叉树.swift */; };
 		D172CEBD265007C900232907 /* LC104. 二叉树的最大深度 递归.swift in Sources */ = {isa = PBXBuildFile; fileRef = D172CEBC265007C900232907 /* LC104. 二叉树的最大深度 递归.swift */; };
 		D17D73A7263111C6008C84EE /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D73A6263111C6008C84EE /* ListNode.swift */; };
+		D19779D4266322A5004CBEDE /* LC94 二叉树中序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19779D3266322A5004CBEDE /* LC94 二叉树中序遍历.swift */; };
+		D19779D826636974004CBEDE /* LC108 有序数组转换为平衡二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19779D726636974004CBEDE /* LC108 有序数组转换为平衡二叉树.swift */; };
 		D1AE2F472626BFC300635251 /* LC53 最大子序和 动态规划.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AE2F462626BFC300635251 /* LC53 最大子序和 动态规划.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,10 +49,15 @@
 		D1436B8B2632F49B00563783 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		D1436B8E2632F4F200563783 /* LC100 相同的树 二叉树 递归.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC100 相同的树 二叉树 递归.swift"; sourceTree = "<group>"; };
 		D14709B22631B2FA00D247B1 /* LC21. 合并两个有序链表 链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC21. 合并两个有序链表 链表.swift"; sourceTree = "<group>"; };
+		D1490A712678E13000CF24ED /* LC111 二叉树的最小深度.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC111 二叉树的最小深度.swift"; sourceTree = "<group>"; };
+		D1490A75267900B400CF24ED /* LC102 二叉树的层序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC102 二叉树的层序遍历.swift"; sourceTree = "<group>"; };
 		D14CCEC126612E5B00EE3BB0 /* LC58 最后单词长度 字符串.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC58 最后单词长度 字符串.swift"; sourceTree = "<group>"; };
 		D14CCEC426612F4C00EE3BB0 /* LC66 加一 .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC66 加一 .swift"; sourceTree = "<group>"; };
+		D170B519266B023500552D14 /* LC110 平衡二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC110 平衡二叉树.swift"; sourceTree = "<group>"; };
 		D172CEBC265007C900232907 /* LC104. 二叉树的最大深度 递归.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC104. 二叉树的最大深度 递归.swift"; sourceTree = "<group>"; };
 		D17D73A6263111C6008C84EE /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
+		D19779D3266322A5004CBEDE /* LC94 二叉树中序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC94 二叉树中序遍历.swift"; sourceTree = "<group>"; };
+		D19779D726636974004CBEDE /* LC108 有序数组转换为平衡二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC108 有序数组转换为平衡二叉树.swift"; sourceTree = "<group>"; };
 		D1AE2F462626BFC300635251 /* LC53 最大子序和 动态规划.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC53 最大子序和 动态规划.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,9 +99,14 @@
 				D14CCEC126612E5B00EE3BB0 /* LC58 最后单词长度 字符串.swift */,
 				D14CCEC426612F4C00EE3BB0 /* LC66 加一 .swift */,
 				D11B18ED2661D5D700AAA324 /* LC69 x平方根 二分查找.swift */,
+				D19779D3266322A5004CBEDE /* LC94 二叉树中序遍历.swift */,
 				D1436B8E2632F4F200563783 /* LC100 相同的树 二叉树 递归.swift */,
 				D141E5CB26350C42000777A4 /* LC101 对称二叉树 递归 队列.swift */,
+				D1490A75267900B400CF24ED /* LC102 二叉树的层序遍历.swift */,
 				D172CEBC265007C900232907 /* LC104. 二叉树的最大深度 递归.swift */,
+				D19779D726636974004CBEDE /* LC108 有序数组转换为平衡二叉树.swift */,
+				D170B519266B023500552D14 /* LC110 平衡二叉树.swift */,
+				D1490A712678E13000CF24ED /* LC111 二叉树的最小深度.swift */,
 				D17D73A6263111C6008C84EE /* ListNode.swift */,
 				D1436B8B2632F49B00563783 /* TreeNode.swift */,
 			);
@@ -155,11 +170,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1490A722678E13000CF24ED /* LC111 二叉树的最小深度.swift in Sources */,
 				D1436B8F2632F4F200563783 /* LC100 相同的树 二叉树 递归.swift in Sources */,
 				D11B18EE2661D5D700AAA324 /* LC69 x平方根 二分查找.swift in Sources */,
 				D14709B32631B2FA00D247B1 /* LC21. 合并两个有序链表 链表.swift in Sources */,
 				D13AA54F2625BD9300CAE125 /* main.swift in Sources */,
+				D19779D826636974004CBEDE /* LC108 有序数组转换为平衡二叉树.swift in Sources */,
+				D19779D4266322A5004CBEDE /* LC94 二叉树中序遍历.swift in Sources */,
 				D1AE2F472626BFC300635251 /* LC53 最大子序和 动态规划.swift in Sources */,
+				D170B51A266B023500552D14 /* LC110 平衡二叉树.swift in Sources */,
 				D13AA5572625D18E00CAE125 /* LC35 搜索插入位置 二分查找.swift in Sources */,
 				D17D73A7263111C6008C84EE /* ListNode.swift in Sources */,
 				D141E5CC26350C42000777A4 /* LC101 对称二叉树 递归 队列.swift in Sources */,
@@ -168,6 +187,7 @@
 				D1352A68263303AB00E82286 /* LC20 有效的括号 栈.swift in Sources */,
 				D172CEBD265007C900232907 /* LC104. 二叉树的最大深度 递归.swift in Sources */,
 				D1436B8C2632F49B00563783 /* TreeNode.swift in Sources */,
+				D1490A76267900B400CF24ED /* LC102 二叉树的层序遍历.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

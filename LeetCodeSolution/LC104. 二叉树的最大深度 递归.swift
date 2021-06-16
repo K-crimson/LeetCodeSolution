@@ -18,4 +18,3 @@ func maxDepth(_ root: TreeNode?) -> Int {
 }
 
 
-let a = initTreeNodeUseArray(array: [3,9,20,nil,nil,15,7])
