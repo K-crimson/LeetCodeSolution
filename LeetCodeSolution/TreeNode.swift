@@ -137,6 +137,25 @@ func preOrderTraversal(root: TreeNode?) -> [Int] {
     return res
 }
 
+/// 迭代法
+func preOrderTraversal(_ root: TreeNode?) -> [Int] {
+    guard let node = root else { return [] }
+    var res = [Int]()
+    var stack = [TreeNode]()
+    stack.append(node)
+    while !stack.isEmpty {
+        let popNode = stack.popLast()!
+        if let right = popNode.right {
+            stack.append(right)
+        }
+        if let left = popNode.left {
+            stack.append(left)
+        }
+        res.append(popNode.val)
+    }
+    return res
+}
+
 
 //2. 中序遍历
 
@@ -252,3 +271,59 @@ func BFSHelper(treeNode: TreeNode?) -> [Int] {
 
 
 
+/// 迭代法 统一格式写法：
+
+//前序遍历：
+func preOrderIteration(_ root: TreeNode?) -> [Int] {
+    
+    guard let root = root else { return [] }
+    
+    var res = [Int]()
+    var stack = [TreeNode?]()
+    var node: TreeNode? = root
+    stack.append(node)                      // 根节点
+    while !stack.isEmpty {
+        node = stack.last!                  // 取栈顶的节点
+        if node != nil {
+            node = stack.removeLast()       // 取栈顶的节点并pop
+            if let right = node?.right {
+                stack.append(right)         //右
+            }
+            if let left = node?.left {
+                stack.append(left)          //左
+            }
+            stack.append(node)              //中
+            stack.append(nil)               //压入nil作为待处理标识
+        } else {
+            stack.removeLast()              //弹出nil
+            node = stack.removeLast()       //取待处理节点
+            res.append(node!.val)           //将待处理节点加入结果数组
+        }
+    }
+    return res
+}
+
+func postorderIteration(_ root: TreeNode?) -> [Int] {
+    guard let root = root else {return []}
+    var res = [Int]()
+    var stack = [TreeNode?]()
+    var node: TreeNode? = root
+    stack.append(node!)
+    while !stack.isEmpty {
+        node = stack.removeLast()
+        if node != nil {
+            stack.append(node!)
+            stack.append(nil)
+            if let right = node!.right {
+                stack.append(right)
+            }
+            if let left = node!.left {
+                stack.append(left)
+            }
+        } else {
+            node = stack.removeLast()
+            res.append(node!.val)
+        }
+    }
+    return res
+}

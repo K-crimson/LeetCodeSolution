@@ -33,3 +33,36 @@ func helper111(treeNode: TreeNode?, depth: Int) -> Int {
         return max(leftDepth,rightDepth)
     }
 }
+
+/// BFS方法：
+
+func solution111BFS(root: TreeNode?) -> Int {
+    guard let rootNode = root else {
+        return 0
+    }
+    
+    var queue = [TreeNode]()
+    queue.append(rootNode)
+    
+    var depth = 1
+    while !queue.isEmpty {
+        var queueCount = queue.count
+        for _ in 1...queueCount {
+            let outNode = queue.removeFirst()
+            if outNode.left == nil && outNode.right == nil {
+                return depth
+            }
+            if let left = outNode.left {
+                queue.append(left)
+            }
+            if let right = outNode.right {
+                queue.append(right)
+            }
+        }
+        depth += 1
+    }
+
+    return depth
+}
+
+

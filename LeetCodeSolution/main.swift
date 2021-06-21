@@ -7,7 +7,12 @@
 
 import Foundation
 
+//let a = initTreeNodeUseArray(array: [1,2,2,nil,3])
 
-let a = initTreeNodeUseArray(array:[3,9,20,nil,nil,15,7])
 
-print(BFSarr(root: a))
+
+var a = "1010"
+var b = "1011"
+
+
+
