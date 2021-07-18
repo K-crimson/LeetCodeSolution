@@ -7,12 +7,14 @@
 
 import Foundation
 
-//let a = initTreeNodeUseArray(array: [1,2,2,nil,3])
+let startTime = CFAbsoluteTimeGetCurrent()
 
 
 
-var a = "1010"
-var b = "1011"
 
 
 
+
+let endTime = CFAbsoluteTimeGetCurrent()
+
+debugPrint("代码执行时长：%f 毫秒", (endTime - startTime)*1000)

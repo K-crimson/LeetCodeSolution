@@ -8,6 +8,7 @@
 import Foundation
 
 
+
 func solution69(_ x: Int) -> Int {
     if x == 1 {
         return 1

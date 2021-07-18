@@ -46,10 +46,10 @@
             filePath = "LeetCodeSolution/LC69 x&#x5e73;&#x65b9;&#x6839; &#x4e8c;&#x5206;&#x67e5;&#x627e;.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
-            landmarkName = "solution69(_:)"
-            landmarkType = "9">
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "unknown"
+            landmarkType = "0">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -81,38 +81,6 @@
             startingLineNumber = "15"
             endingLineNumber = "15"
             landmarkName = "helper111(treeNode:depth:)"
-            landmarkType = "9">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "AA21CB87-2FE4-4A21-B6CC-8E4FDDA18507"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LeetCodeSolution/main.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "12"
-            endingLineNumber = "12"
-            landmarkName = "unknown"
-            landmarkType = "0">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F6E0B98E-7C2D-4488-BCA9-743CD7FCB21F"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "LeetCodeSolution/main.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
-            landmarkName = "addBinary(_:_:)"
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>

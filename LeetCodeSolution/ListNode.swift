@@ -41,7 +41,7 @@ class ListNode {
     }
     
     
-    func initFromHead(_ array: [Int]) -> ListNode{
+    func initFromTail(_ array: [Int]) -> ListNode{
         var headNode = ListNode(0)
         
         for num in array {
@@ -58,23 +58,23 @@ class ListNode {
     }
     
 
-//    func initFromTail(_ array: [Int]) -> ListNode {
-//        var head = ListNode()
-//        var tail = ListNode()
-//        tail = head
-//        for num in array {
-//            let tempNode = ListNode(num)
-//            tail.next = tempNode
-//            tail = tempNode
-//        }
-//
-//        if let next = head.next {
-//            head = next
-//        }
-//        
-//        
-//        return head
-//    }
+    func initFromHead(_ array: [Int]) -> ListNode {
+        var head = ListNode()
+        var tail = ListNode()
+        tail = head
+        for num in array {
+            let tempNode = ListNode(num)
+            tail.next = tempNode
+            tail = tempNode
+        }
+
+        if let next = head.next {
+            head = next
+        }
+        
+        
+        return head
+    }
     
     func printListNode() {
         var listNode = self
