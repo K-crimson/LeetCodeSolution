@@ -16,6 +16,7 @@
 		D1352A68263303AB00E82286 /* LC20 有效的括号 栈.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1352A67263303AB00E82286 /* LC20 有效的括号 栈.swift */; };
 		D13AA54F2625BD9300CAE125 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13AA54E2625BD9300CAE125 /* main.swift */; };
 		D13AA5572625D18E00CAE125 /* LC35 搜索插入位置 二分查找.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13AA5562625D18E00CAE125 /* LC35 搜索插入位置 二分查找.swift */; };
+		D13E2F6D26A5212F00101A2D /* LC12 整数转罗马数字 哈希表.swift in Sources */ = {isa = PBXBuildFile; fileRef = D13E2F6C26A5212F00101A2D /* LC12 整数转罗马数字 哈希表.swift */; };
 		D141E5CC26350C42000777A4 /* LC101 对称二叉树 递归 队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = D141E5CB26350C42000777A4 /* LC101 对称二叉树 递归 队列.swift */; };
 		D1436B8C2632F49B00563783 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1436B8B2632F49B00563783 /* TreeNode.swift */; };
 		D1436B8F2632F4F200563783 /* LC100 相同的树 二叉树 递归.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1436B8E2632F4F200563783 /* LC100 相同的树 二叉树 递归.swift */; };
@@ -28,6 +29,7 @@
 		D14CDCB026A0707E0025CB9B /* LC118 杨辉三角.swift in Sources */ = {isa = PBXBuildFile; fileRef = D14CDCAF26A0707E0025CB9B /* LC118 杨辉三角.swift */; };
 		D151F65326831014004B9C56 /* LC160 相交链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = D151F65226831014004B9C56 /* LC160 相交链表.swift */; };
 		D15BE7EA26A418A100ECCDBE /* LC8 字符串转整数.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15BE7E926A418A100ECCDBE /* LC8 字符串转整数.swift */; };
+		D15BE7EE26A5169900ECCDBE /* LC11 盛最多水的容器 双指针.swift in Sources */ = {isa = PBXBuildFile; fileRef = D15BE7ED26A5169900ECCDBE /* LC11 盛最多水的容器 双指针.swift */; };
 		D16CD73B267AE0030042D416 /* LC144 前序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16CD73A267AE0030042D416 /* LC144 前序遍历.swift */; };
 		D170B51A266B023500552D14 /* LC110 平衡二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = D170B519266B023500552D14 /* LC110 平衡二叉树.swift */; };
 		D172CEBD265007C900232907 /* LC104. 二叉树的最大深度 递归.swift in Sources */ = {isa = PBXBuildFile; fileRef = D172CEBC265007C900232907 /* LC104. 二叉树的最大深度 递归.swift */; };
@@ -61,6 +63,7 @@
 		D13AA54B2625BD9300CAE125 /* LeetCodeSolution */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCodeSolution; sourceTree = BUILT_PRODUCTS_DIR; };
 		D13AA54E2625BD9300CAE125 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		D13AA5562625D18E00CAE125 /* LC35 搜索插入位置 二分查找.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC35 搜索插入位置 二分查找.swift"; sourceTree = "<group>"; };
+		D13E2F6C26A5212F00101A2D /* LC12 整数转罗马数字 哈希表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC12 整数转罗马数字 哈希表.swift"; sourceTree = "<group>"; };
 		D141E5CB26350C42000777A4 /* LC101 对称二叉树 递归 队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC101 对称二叉树 递归 队列.swift"; sourceTree = "<group>"; };
 		D1436B8B2632F49B00563783 /* TreeNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeNode.swift; sourceTree = "<group>"; };
 		D1436B8E2632F4F200563783 /* LC100 相同的树 二叉树 递归.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC100 相同的树 二叉树 递归.swift"; sourceTree = "<group>"; };
@@ -73,6 +76,7 @@
 		D14CDCAF26A0707E0025CB9B /* LC118 杨辉三角.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC118 杨辉三角.swift"; sourceTree = "<group>"; };
 		D151F65226831014004B9C56 /* LC160 相交链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC160 相交链表.swift"; sourceTree = "<group>"; };
 		D15BE7E926A418A100ECCDBE /* LC8 字符串转整数.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC8 字符串转整数.swift"; sourceTree = "<group>"; };
+		D15BE7ED26A5169900ECCDBE /* LC11 盛最多水的容器 双指针.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC11 盛最多水的容器 双指针.swift"; sourceTree = "<group>"; };
 		D16CD73A267AE0030042D416 /* LC144 前序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC144 前序遍历.swift"; sourceTree = "<group>"; };
 		D170B519266B023500552D14 /* LC110 平衡二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC110 平衡二叉树.swift"; sourceTree = "<group>"; };
 		D172CEBC265007C900232907 /* LC104. 二叉树的最大深度 递归.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC104. 二叉树的最大深度 递归.swift"; sourceTree = "<group>"; };
@@ -118,6 +122,8 @@
 				D132406A26A3C1CC00E210D4 /* LC5 最长回文字串 动态规划 中心扩展.swift */,
 				D132406D26A3C21E00E210D4 /* LC6 Z字形变换.swift */,
 				D15BE7E926A418A100ECCDBE /* LC8 字符串转整数.swift */,
+				D15BE7ED26A5169900ECCDBE /* LC11 盛最多水的容器 双指针.swift */,
+				D13E2F6C26A5212F00101A2D /* LC12 整数转罗马数字 哈希表.swift */,
 				D1352A67263303AB00E82286 /* LC20 有效的括号 栈.swift */,
 				D14709B22631B2FA00D247B1 /* LC21. 合并两个有序链表 链表.swift */,
 				D13AA5562625D18E00CAE125 /* LC35 搜索插入位置 二分查找.swift */,
@@ -226,9 +232,11 @@
 				D17D73A7263111C6008C84EE /* ListNode.swift in Sources */,
 				D141E5CC26350C42000777A4 /* LC101 对称二叉树 递归 队列.swift in Sources */,
 				D14CCEC226612E5B00EE3BB0 /* LC58 最后单词长度 字符串.swift in Sources */,
+				D13E2F6D26A5212F00101A2D /* LC12 整数转罗马数字 哈希表.swift in Sources */,
 				D14CCEC526612F4C00EE3BB0 /* LC66 加一 .swift in Sources */,
 				D1352A68263303AB00E82286 /* LC20 有效的括号 栈.swift in Sources */,
 				D172CEBD265007C900232907 /* LC104. 二叉树的最大深度 递归.swift in Sources */,
+				D15BE7EE26A5169900ECCDBE /* LC11 盛最多水的容器 双指针.swift in Sources */,
 				D151F65326831014004B9C56 /* LC160 相交链表.swift in Sources */,
 				D1436B8C2632F49B00563783 /* TreeNode.swift in Sources */,
 				D1490A76267900B400CF24ED /* LC102 二叉树的层序遍历.swift in Sources */,
