@@ -38,6 +38,7 @@
 		D19779D4266322A5004CBEDE /* LC94 二叉树中序遍历.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19779D3266322A5004CBEDE /* LC94 二叉树中序遍历.swift */; };
 		D19779D826636974004CBEDE /* LC108 有序数组转换为平衡二叉树.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19779D726636974004CBEDE /* LC108 有序数组转换为平衡二叉树.swift */; };
 		D1AE2F472626BFC300635251 /* LC53 最大子序和 动态规划.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AE2F462626BFC300635251 /* LC53 最大子序和 动态规划.swift */; };
+		D1C2E04726A6621600148FF2 /* 排序算法整理.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1C2E04626A6621500148FF2 /* 排序算法整理.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -85,6 +86,7 @@
 		D19779D3266322A5004CBEDE /* LC94 二叉树中序遍历.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC94 二叉树中序遍历.swift"; sourceTree = "<group>"; };
 		D19779D726636974004CBEDE /* LC108 有序数组转换为平衡二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC108 有序数组转换为平衡二叉树.swift"; sourceTree = "<group>"; };
 		D1AE2F462626BFC300635251 /* LC53 最大子序和 动态规划.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC53 最大子序和 动态规划.swift"; sourceTree = "<group>"; };
+		D1C2E04626A6621500148FF2 /* 排序算法整理.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "排序算法整理.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				D17D73A6263111C6008C84EE /* ListNode.swift */,
 				D13AA54E2625BD9300CAE125 /* main.swift */,
 				D1436B8B2632F49B00563783 /* TreeNode.swift */,
+				D1C2E04626A6621500148FF2 /* 排序算法整理.swift */,
 			);
 			path = LeetCodeSolution;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				D19779D4266322A5004CBEDE /* LC94 二叉树中序遍历.swift in Sources */,
 				D15BE7EA26A418A100ECCDBE /* LC8 字符串转整数.swift in Sources */,
 				D1AE2F472626BFC300635251 /* LC53 最大子序和 动态规划.swift in Sources */,
+				D1C2E04726A6621600148FF2 /* 排序算法整理.swift in Sources */,
 				D1490A7A2679A22000CF24ED /* LC112 路径总和 二叉树.swift in Sources */,
 				D170B51A266B023500552D14 /* LC110 平衡二叉树.swift in Sources */,
 				D13AA5572625D18E00CAE125 /* LC35 搜索插入位置 二分查找.swift in Sources */,

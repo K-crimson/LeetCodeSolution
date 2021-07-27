@@ -8,9 +8,13 @@
 import Foundation
 
 let startTime = CFAbsoluteTimeGetCurrent()
+var a = [5,2,3,4,1]
 
-
+let sortFunc = SortAlgorithms.Onlogn.MergeSort()
+sortFunc.mergeSort(&a)
+print(a)
 
 let endTime = CFAbsoluteTimeGetCurrent()
 
 debugPrint("代码执行时长：%f 毫秒", (endTime - startTime)*1000)
+
