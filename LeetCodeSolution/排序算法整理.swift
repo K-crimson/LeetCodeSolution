@@ -168,6 +168,52 @@ class SortAlgorithms {
             }
         }
         
+        class quickSort {
+            func quickSort(_ nums: inout [Int]) {
+                helper(&nums, lo: 0, hi: nums.count - 1)
+            }
+            
+            func helper(_ nums: inout [Int], lo: Int, hi: Int) {
+                if lo >= hi {
+                    return
+                }
+                
+                var partitionNum = partition(&nums, lo: lo, hi: hi)
+                helper(&nums, lo: lo, hi: partitionNum - 1)
+                helper(&nums, lo: partitionNum + 1, hi: hi)
+            }
+            
+            func partition(_ nums: inout [Int], lo: Int, hi: Int) -> Int {
+                var i = lo + 1, j = hi
+                var pivot = nums[lo]
+                while true {
+                    
+                    while nums[i] < pivot {
+                        i += 1
+                        if i == hi {
+                            break
+                        }
+                    }
+                    
+                    while nums[j] > pivot {
+                        j -= 1
+                        if j == lo {
+                            break
+                        }
+                    }
+                    
+                    if i >= j {
+                        break
+                    }
+                    
+                    nums.swapAt(i, j)
+                }
+                nums.swapAt(lo, j)
+                return j
+            }
+            
+        }
+        
     }
     
 }

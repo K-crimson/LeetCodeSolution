@@ -10,8 +10,8 @@ import Foundation
 let startTime = CFAbsoluteTimeGetCurrent()
 var a = [5,2,3,4,1]
 
-let sortFunc = SortAlgorithms.Onlogn.MergeSort()
-sortFunc.mergeSort(&a)
+let sortFunc = SortAlgorithms.Onlogn.quickSort()
+sortFunc.quickSort(&a)
 print(a)
 
 let endTime = CFAbsoluteTimeGetCurrent()
