@@ -88,7 +88,7 @@
 		D19779D726636974004CBEDE /* LC108 有序数组转换为平衡二叉树.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC108 有序数组转换为平衡二叉树.swift"; sourceTree = "<group>"; };
 		D197EAD226AFFBCE00B8B726 /* LC19 删除链表中倒数第n结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC19 删除链表中倒数第n结点.swift"; sourceTree = "<group>"; };
 		D1AE2F462626BFC300635251 /* LC53 最大子序和 动态规划.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LC53 最大子序和 动态规划.swift"; sourceTree = "<group>"; };
-		D1C2E04626A6621500148FF2 /* 排序算法整理.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "排序算法整理.swift"; sourceTree = "<group>"; };
+		D1C2E04626A6621500148FF2 /* 排序算法整理.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "排序算法整理.swift"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -84,5 +84,101 @@
             landmarkType = "9">
          </BreakpointContent>
       </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FD25C5E3-D3F7-4677-8CD6-A92920111D4A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeSolution/&#x6392;&#x5e8f;&#x7b97;&#x6cd5;&#x6574;&#x7406;.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04CFCC80-7D5B-4D46-A151-8A917507B8B6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeSolution/&#x6392;&#x5e8f;&#x7b97;&#x6cd5;&#x6574;&#x7406;.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "189"
+            endingLineNumber = "189"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C0AC115D-0C37-4F7A-8A39-19B36B10C4B9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeSolution/&#x6392;&#x5e8f;&#x7b97;&#x6cd5;&#x6574;&#x7406;.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "205"
+            endingLineNumber = "205"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC3CB8E3-3E61-4C54-B374-101AA8E22CFE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LeetCodeSolution/TreeNode.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
+            landmarkName = "printFullTreeNode(_:)"
+            landmarkType = "9">
+            <Locations>
+               <Location
+                  uuid = "EC3CB8E3-3E61-4C54-B374-101AA8E22CFE - da1d5bd59441b64d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "LeetCodeSolution.printFullTreeNode(LeetCodeSolution.TreeNode) -&gt; ()"
+                  moduleName = "LeetCodeSolution"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zyche/Documents/LeetCodeSolution/LeetCodeSolution/TreeNode.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "404">
+               </Location>
+               <Location
+                  uuid = "EC3CB8E3-3E61-4C54-B374-101AA8E22CFE - 93adac3eaefd0756"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;LeetCodeSolution.TreeNode&gt;) -&gt; Swift.Bool in LeetCodeSolution.printFullTreeNode(LeetCodeSolution.TreeNode) -&gt; ()"
+                  moduleName = "LeetCodeSolution"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zyche/Documents/LeetCodeSolution/LeetCodeSolution/TreeNode.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "167"
+                  endingLineNumber = "167"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
    </Breakpoints>
 </Bucket>

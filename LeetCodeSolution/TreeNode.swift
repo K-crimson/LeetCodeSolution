@@ -48,7 +48,7 @@ class TreeNode {
 }
 
 
-func initTreeNodeUseArray(array: [Int?]) -> TreeNode? {
+func initTreeNodeWithArray(array: [Int?]) -> TreeNode? {
     // 对每一个Int元素创建一个对应的树叶节点
     let nodes = array.map { $0 == nil ? nil : TreeNode($0!) }
     // 标记变量，标记当前的树叶是否被填满，0表示未填充，2表示左右子树均已填充
@@ -75,7 +75,66 @@ func initTreeNodeUseArray(array: [Int?]) -> TreeNode? {
     return root
 }
 
+func initTreeNodeWithArrayNew(array: [Int?]) -> TreeNode? {
+    guard array.first != nil else {
+        return nil
+    }
+    var arr = array
+    var queue = [TreeNode?]()
+    let root = TreeNode(arr.removeFirst()!)
+    var node: TreeNode? = root
+    queue.append(node)
+    while !arr.isEmpty {
+        node = queue.removeFirst()
+        if node == nil {
+            continue
+        }
+        let left: TreeNode? = arr.isEmpty ? nil : { let leftNum = arr.removeFirst()
+            if leftNum == nil {
+                return nil
+            } else {
+                return TreeNode(leftNum!)
+            }
+        }()
+        let right: TreeNode? = arr.isEmpty ? nil : { let rightNum = arr.removeFirst()
+            if rightNum == nil {
+                return nil
+            } else {
+                return TreeNode(rightNum!)
+            }
+        }()
+        node?.left = left
+        node?.right = right
+        queue.append(left)
+        queue.append(right)
+    }
+    
+    return root
+}
 
+
+//if treeNode != nil {
+//    var left: TreeNode? = nil
+//    var right: TreeNode? = nil
+//    if !arr.isEmpty && arr.first! != nil {
+//        left = TreeNode(arr.removeFirst()!)
+//    } else {
+//        arr.removeFirst()
+//    }
+//    if !arr.isEmpty && arr.first! != nil {
+//        right = TreeNode(arr.removeFirst()!)
+//    } else {
+//        arr.removeFirst()
+//    }
+//    treeNode?.left = left
+//    treeNode?.right = right
+//    queue.removeFirst()
+//    queue.append(left)
+//    queue.append(right)
+//} else {
+//    arr.removeFirst()
+//    arr.removeFirst()
+//}
 
 /// 使用层序遍历打印出二叉树
 func printTreeNode(_ treeNode: TreeNode?) {
@@ -102,6 +161,25 @@ func printTreeNode(_ treeNode: TreeNode?) {
     print(res)
 }
 
+func printFullTreeNode(_ node: TreeNode) {
+    var root = node
+    var res = [[Int?]]()
+    var queue = [TreeNode?]()
+    var node: TreeNode? = root
+    queue.append(node!)
+    while !queue.allSatisfy({ $0 == nil }) {
+        var arr = [Int?]()
+        for node in queue {
+            queue.append(node?.left)
+            queue.append(node?.right)
+            arr.append(queue.removeFirst()?.val)
+        }
+        res.append(arr)
+    }
+    for node in res {
+        print(node)
+    }
+}
 
 //附： 二叉树遍历方法整理
 

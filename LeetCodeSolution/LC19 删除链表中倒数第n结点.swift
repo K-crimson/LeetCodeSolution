@@ -7,6 +7,7 @@
 
 import Foundation
 
+
 func solution19(_ head: ListNode?, _ n: Int) -> ListNode? {
     var node = head
     var arr = [ListNode]()

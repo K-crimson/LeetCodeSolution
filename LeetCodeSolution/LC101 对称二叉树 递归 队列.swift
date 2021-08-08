@@ -8,7 +8,7 @@
 import Foundation
 
 func solution101(_ array: [Int?]) -> Bool{
-    let root = initTreeNodeUseArray(array: array)
+    let root = initTreeNodeWithArray(array: array)
     return mirror(root?.left, root?.right)
 }
 

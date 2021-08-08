@@ -117,7 +117,7 @@ class SortAlgorithms {
                 var j = i
                 while  j > 0 {
                     if nums[j] < nums[j - 1] {
-                            nums.swapAt(j, j - 1 )
+                        nums.swapAt(j, j - 1)
                     }
                     j -= 1
                 }
@@ -133,85 +133,80 @@ class SortAlgorithms {
        
         
         class MergeSort {
-            
             func mergeSort(_ nums: inout [Int]) {
-                helper(&nums, lo: 0, hi: nums.count - 1)
+                sortHelper(&nums, lo: 0, hi: nums.count - 1)
             }
             
-            func helper(_ nums: inout [Int],lo: Int, hi: Int) {
-                if lo >= hi { return }
-                let mid = lo + (hi - lo) / 2
-                helper(&nums, lo: lo, hi: mid)
-                helper(&nums, lo: mid + 1, hi: hi)
+            func sortHelper(_ nums: inout [Int], lo: Int, hi: Int) {
+                if lo >= hi {
+                    return
+                }
+                
+                let mid = (lo + hi) / 2
+                sortHelper(&nums, lo: lo, hi: mid)
+                sortHelper(&nums, lo: mid + 1, hi: hi)
                 merge(&nums, lo: lo, mid: mid, hi: hi)
             }
-            
             
             func merge(_ nums: inout [Int], lo: Int, mid: Int, hi: Int) {
                 let arr = nums
                 var i = lo, j = mid + 1
-                for k in lo...hi {  //不要写成indices
+                for k in lo...hi {
                     if i > mid {
                         nums[k] = arr[j]
                         j += 1
                     } else if j > hi {
                         nums[k] = arr[i]
                         i += 1
-                    } else if arr[i] > arr[j] {
-                        nums[k] = arr[j]
-                        j += 1
-                    } else {
+                    } else if arr[i] < arr[j] {
                         nums[k] = arr[i]
                         i += 1
+                    } else {
+                        nums[k] = arr[j]
+                        j += 1
                     }
                 }
             }
         }
         
-        class quickSort {
+        class QuickSort {
             func quickSort(_ nums: inout [Int]) {
-                helper(&nums, lo: 0, hi: nums.count - 1)
+                sortHelper(&nums, lo: 0, hi: nums.count - 1)
             }
             
-            func helper(_ nums: inout [Int], lo: Int, hi: Int) {
+            func sortHelper(_ nums: inout [Int], lo: Int, hi: Int) {
                 if lo >= hi {
                     return
                 }
-                
-                var partitionNum = partition(&nums, lo: lo, hi: hi)
-                helper(&nums, lo: lo, hi: partitionNum - 1)
-                helper(&nums, lo: partitionNum + 1, hi: hi)
+                let partitionNum = partition(&nums, lo: lo, hi: hi)
+                sortHelper(&nums, lo: lo, hi: partitionNum - 1)
+                sortHelper(&nums, lo: partitionNum + 1, hi: hi)
             }
             
             func partition(_ nums: inout [Int], lo: Int, hi: Int) -> Int {
-                var i = lo + 1, j = hi
                 var pivot = nums[lo]
+                var i = lo + 1, j = hi
                 while true {
-                    
-                    while nums[i] < pivot {
+                    while nums[i] < pivot  {
                         i += 1
                         if i == hi {
                             break
                         }
                     }
-                    
                     while nums[j] > pivot {
                         j -= 1
                         if j == lo {
                             break
                         }
                     }
-                    
                     if i >= j {
                         break
                     }
-                    
                     nums.swapAt(i, j)
                 }
                 nums.swapAt(lo, j)
                 return j
             }
-            
         }
         
     }
